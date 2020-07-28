@@ -14,7 +14,6 @@ steps:
   inputs:
     versionType: 'CurrentVersion'
     projectJsonPath: '$(Build.SourcesDirectory)'
-    outputType: 'Process'
     orchestratorConnection: 'UiPath Test Orchestrator'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
 - task: UiPathTest@2
